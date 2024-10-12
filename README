@@ -12,3 +12,7 @@ git remote add origin  https://github.com/Elixzokyai/EmobiliswebDevelopment.git.
 git remote -v {to check if above origin was added}
 git status : {red : rep. files that are not yet added to be committed} {green rep. files that are ready to be committed}
 git add . git add filename/foldername
+git commit -m 'added index.html and style.css' (this will be to add the codes to the github)
+Then go to the avatar from the github and click setting , developer setting, then personal access token(classic)
+Then generate token, save the token anywhere you can remember,
+git push origin master(it generates other sign in to the github and sign in with the current token)
