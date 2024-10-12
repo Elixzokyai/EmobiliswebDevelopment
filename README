@@ -1,0 +1,14 @@
+## GITHUB PROCESS
+## Prerequiste
+a. Terminal knowledge b. github account c. ## configure the github on terminal
+
+Configuration steps
+git init
+git config user.email 'elijahmuendo100@gmail.com' {here use the email you registered to github with}
+  {github account username}
+when the project is new
+git init
+git remote add origin  https://github.com/Elixzokyai/EmobiliswebDevelopment.git.git {get your url origin from github}
+git remote -v {to check if above origin was added}
+git status : {red : rep. files that are not yet added to be committed} {green rep. files that are ready to be committed}
+git add . git add filename/foldername
