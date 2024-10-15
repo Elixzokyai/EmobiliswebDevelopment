@@ -1,12 +1,135 @@
-<html>
+<!DOCTYPE html>
+<html >
+<meta charset="UTF-8"
   <head>
-      <title> My First Website</title>
+      <title> Emobilis</title>
+<!--    link to the file -->
+    <link href="CSS/Style.css" rel="stylesheet"/>
+<!--    internal css -->
+
+
+
   </head>
+<p style="font-family: 'Calibri Light'; font-weight: bold; color: purple;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+    type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+    Lorem Ipsum passages,
+    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+    <!-- lists-->
+    <!-- unordered elements-->
+    <ol>
+       <li>Gormahia</li>
+       <li>Tusker</li>
+       <li>AFC Leopards</li>
+       <li>Wazito Fc</li>
+
+    </ol>
+
+    <!-- unordered elements-->
+    <ul>
+       <li>Gormahia</li>
+       <li>Tusker</li>
+       <li>AFC Leopards</li>
+       <li>Wazito Fc</li>
+    </ul>
+
+<blockquote>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+    industry's
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+    type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+    Lorem Ipsum passages,
+</blockquote>
+<!--examples of inline elements -->
+<!-- buttons -->
+<button>Click ME</button>
+<button id="btnSubmit">Submit Button</button>
+<!--image-->
+<img src="Assests/1709418119573.jpg" width="200" height="200" alt="Some image here"/>
+<!--table-->
+<table class="table">
+    <thead>
+    <th>Position</th>
+    <th>Team Name</th>
+    <th>Points</th>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>AFC Leopards</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Sofapaka</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Gor Mahia</td>
+        <td>28</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="2">Total Ticket pricing</td>
+        <td>$5.50</td>
+    </tr>
+    </tfoot>
+</table>
+<table>
+    <thead>
+    <th>Position</th>
+    <th>Team Name</th>
+    <th>Points</th>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>AFC Leopards</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Sofapaka</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Gor Mahia</td>
+        <td>28</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="2">Total Ticket pricing</td>
+        <td>$5.50</td>
+    </tr>
+    </tfoot>
+</table>
+<!--form -->
+<form method="POST">
+    <label>Team Name</label>
+    <input type="text" placeholder="Enter Team Name" name="team_name"/>
+    <label>Season Points</label>
+    <input type="number" placeholder="Enter Points" name="team_points"/>
+    <label>Team Email</label>
+    <input type="email" placeholder="Enter Team Email" name="team_email"/>
+    <label>Team Picture</label>
+    <input type="file" name="team-pic">
+    <label>Home Tema Color</label>
+    <select name="team_color">
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="purple">Purple</option>
+    </select>
+    <input type="submit" value="Submit Team"/>
+    <input type="reset" value="Reset Form">
+</form>
+
   <body>
-    <h1>Pablo Kyai</h1>
-    <h2>Pablo Kyai</h2>
-    <h3>Pablo Kyai</h3>
-    <h4>Pablo Kyai</h4>
-    <h5>Pablo Kyai</h5>
-  </body>
+    </body>
 </html>
