@@ -16,3 +16,25 @@ git commit -m 'added index.html and style.css' (this will be to add the codes to
 Then go to the avatar from the github and click setting , developer setting, then personal access token(classic)
 Then generate token, save the token anywhere you can remember,
 git push origin master(it generates other sign in to the github and sign in with the current token)
+
+
+### HTML
+HTML elements : an html element will defined with a start tag , some content and then an end tag <> content </> </> :: enclosing tag.
+Nature of the element ::
+Block level element :: occupies entire width of the canvas
+Inline element :: occupies only necessary width required by the elements
+HTML Attributes :: more info. about the element every single html element can have an attribute
+CSS
+cascading stylesheets
+Key Concepts
+
+How to write CSS ....
+inline css : css directly written on the element : style attribute
+internal css : css script written inside the html document : style element
+external css : css script is an external linked to the html document
+Syntax identifier/selector : { property: value; }
+How to select element to style
+inline css : the element is the selection
+id attribute : unique identifier for our elements
+class attribute : grouping identifier for our elements
+tag elements : identifying the element to style using its html element name
