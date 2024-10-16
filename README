@@ -38,3 +38,5 @@ inline css : the element is the selection
 id attribute : unique identifier for our elements
 class attribute : grouping identifier for our elements
 tag elements : identifying the element to style using its html element name
+
+### CSS GRID
