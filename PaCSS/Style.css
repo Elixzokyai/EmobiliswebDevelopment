@@ -1,5 +1,6 @@
 .grid-container{
     display: grid;
+    grid-gap: 15px;
     grid-template-areas:
      'nd nd nd nd nd nd nd nd'
      'cd cd vd vd vd vd id id'
@@ -7,6 +8,7 @@
      'fd fd fd fd fd fd fd fd'
     ;
 }
+
 #navbarDiv{
     grid-area: nd;
 }
@@ -15,6 +17,7 @@
 }
 #videoDiv{
    grid-area: vd;
+    width: auto;
 }
 #imageDiv{
    grid-area: id;
@@ -31,9 +34,24 @@
 #footDiv{
    grid-area: fd;
 }
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 315px;
+}
+.img-container img {
+    max-width: 105px;
+    height: auto;
+}
+
+
+
 @media screen and (max-width: 600px) {
   .grid-container{
     display: grid;
+      grid-gap: 15px;
     grid-template-areas:
      'nd nd nd nd nd nd nd nd'
      'vd vd vd vd vd vd vd vd'
